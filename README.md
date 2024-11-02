@@ -1,14 +1,14 @@
-# Aplicación
+# App
 
-Proyecto simple de app con flutter para final movil.
+Proyecto simple de app para final movil con flutter.
 
 ## Empezando
 
-Algunos recursos para comenzar si deseas realizar tu primer proyecto con flutter
+Si deseas comenzar con tu primer proyecto de flutter, estos enlaces te ayudaran.
 
 - [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
 - [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-Vas a obtener más ayuda con el desarrollo de flutter en la
-[online documentation](https://docs.flutter.dev/), ofrece tutoriales, ejemplos, orientación sobre desarrollo móvil y una referencia completa de la API.
-Ánimo, a mi me ayudó!
+Si deseas más herramientas para el desarrollo de flutter, consulta la
+[online documentation](https://docs.flutter.dev/), ofrece tutoriales,
+ejemplos, orientación sobre desarrollo móvil y una referencia API completa.
