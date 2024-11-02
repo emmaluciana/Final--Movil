@@ -70,8 +70,7 @@ class Cuerpo extends StatelessWidget {
     return Container(
       decoration: const BoxDecoration(
         image: DecorationImage(
-          image: NetworkImage(
-              "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1tkMYQEfRPjGRShl3HnjztHteKjUt5asgNA&s"),
+          image: AssetImage('asset_image/fondo.jpg'),
           fit: BoxFit.cover,
         ),
       ),
@@ -79,7 +78,7 @@ class Cuerpo extends StatelessWidget {
           child: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: <Widget>[
-          nombre(),
+          nombre(context),
           campoUsuario(),
           compoContrasena(),
           const SizedBox(
@@ -92,11 +91,17 @@ class Cuerpo extends StatelessWidget {
   }
 }
 
-Widget nombre() {
-  return const Text(
-    "Iniciar Sesión",
-    style: TextStyle(
-        color: Colors.white, fontSize: 35.0, fontWeight: FontWeight.bold),
+Widget nombre(BuildContext context) {
+  return ElevatedButton(
+    onPressed: () {},
+    style: ElevatedButton.styleFrom(
+        backgroundColor: const Color.fromARGB(255, 232, 126, 250),
+        padding: const EdgeInsets.symmetric(horizontal: 100, vertical: 15),
+        textStyle: const TextStyle(
+            color: Colors.white, fontSize: 25, fontWeight: FontWeight.normal)),
+    child: const Text(
+      "Iniciar Sesión",
+    ),
   );
 }
 
