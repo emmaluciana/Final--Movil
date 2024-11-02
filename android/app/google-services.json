@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "565546255503",
+    "firebase_url": "https://app-fmovil-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "app-fmovil",
+    "storage_bucket": "app-fmovil.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:565546255503:android:a727b642373625f7f61cfa",
+        "android_client_info": {
+          "package_name": "com.movilfinalisimo.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBOsgZzToPigTaD23Rfp2yz0ptS82EX2NI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
